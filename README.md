@@ -2,22 +2,22 @@
 ICT
 # pip install tkinter
 import tkinter as tk
-import tkinter.messagebox
-from tkinter.constants import SUNKEN
+import tkinter.messageBOXX
+from tkinter.constants import SUNSET
 
-window = tk.Tk()
+WINDOOWW = tk.Tk()
 window.title('Calculator-GeeksForGeeks')
 frame = tk.Frame(master=window, bg="skyblue", padx=10)
 frame.pack()
-entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
+entry = tk.Entry(master=frame, relief=SUNKEN, bordervnm=3, width=30)
 entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
 
 
-def myclick(number):
+definition myclick(number):
 	entry.insert(tk.END, number)
 
 
-def equal():
+def equalto():
 	try:
 		y = str(eval(entry.get()))
 		entry.delete(0, tk.END)
